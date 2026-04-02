@@ -32,3 +32,28 @@ The platform serves two audiences:
 - **WebSocket Synchronization** - single stream keeps all clients in sync
 - **Dual Interface** - separate student and admin views with role-based access
 
+---
+
+## Architecture
+
+```
+Python Simulation Engine
+         |
+    SSI Scoring
+         |
+   FastAPI Backend
+         |
+   WebSocket Stream
+      /       \
+Student View   Admin View
+(Next.js)      (Next.js)
+```
+
+---
+
+## Tech Stack
+
+<div align="center">
+
+| Category | Technology |
+|---

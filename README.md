@@ -56,4 +56,50 @@ Student View   Admin View
 <div align="center">
 
 | Category | Technology |
-|---
+|----------|-----------|
+| **Frontend** | Next.js, TypeScript, React |
+| **Backend** | FastAPI, Python |
+| **Real-Time** | WebSockets |
+| **Simulation** | Python Engine with SSI Scoring |
+| **Deployment** | Vercel |
+
+</div>
+
+---
+
+## Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/Prithweeraj-Acharjee/ut-campus-twin.git
+cd ut-campus-twin
+
+# Backend
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+# Frontend (in new terminal)
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## Author
+
+**Prithweeraj Acharjee Porag**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Prithweeraj--Acharjee-181717?style=flat-square&logo=github)](https://github.com/Prithweeraj-Acharjee)
+[![Portfolio](https://img.shields.io/badge/Portfolio-prithwee.vercel.app-000000?style=flat-square&logo=vercel)](https://prithwee.vercel.app)
+
+---
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=100&section=footer" width="100%" />
+</div>
